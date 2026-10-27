@@ -4,10 +4,10 @@ import json
 
 client = OpenAI(
     api_key=st.secrets["GROQ_API_KEY"],
-    base_url="https://console.api.groq.com/openai/"
+    base_url="https://.api.groq.com/openai/v1"
 )
 
-MODELO = "llama-3.3-70b-versatile"
+MODELO = "openai/gpt-oss-120b"
 
 SYSTEM_PROMPT = """
 Eres un asistente empático y profesional especializado en evaluación de estrés 
