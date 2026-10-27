@@ -4,7 +4,7 @@ import json
 
 client = OpenAI(
     api_key=st.secrets["GROQ_API_KEY"],
-    base_url="https://.api.groq.com/openai/v1"
+    base_url="https://api.groq.com/openai/v1"
 )
 
 MODELO = "openai/gpt-oss-120b"
