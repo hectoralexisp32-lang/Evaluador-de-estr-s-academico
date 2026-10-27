@@ -4,7 +4,7 @@ import json
 
 client = OpenAI(
     api_key=st.secrets["GROQ_API_KEY"],
-    base_url="https://console.groq.com/openai/v1"
+    base_url="https://console.api.groq.com/openai/v1"
 )
 
 MODELO = "llama-3.3-70b-versatile"
